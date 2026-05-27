@@ -1,0 +1,30 @@
+.board-page {
+    padding-bottom: 80px;
+}
+
+.intro-governance {
+    padding: 80px 0 0;
+    background-color: #ffffff;
+}
+
+.governance-card {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background: #f8faff;
+    padding: 50px;
+    border-radius: 30px;
+    border: 1px solid rgba(22, 79, 249, 0.1);
+}
+
+.governance-card h2 {
+    color: var(--primary-blue);
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.governance-card p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    opacity: 0.8;
+}

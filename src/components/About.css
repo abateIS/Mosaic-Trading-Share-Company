@@ -1,0 +1,122 @@
+.about-section {
+    padding: 100px 0;
+    background-color: var(--bg-color);
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.about-paragraphs {
+    margin-bottom: 50px;
+}
+
+.about-paragraphs p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: var(--text-main);
+    opacity: 0.85;
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.stat-box {
+    background: var(--bg-color);
+    border: 2px solid var(--primary-blue);
+    padding: 30px 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.stat-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box h3 {
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.stat-box p {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+}
+
+.formation-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gallery-main img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-secondary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.gallery-secondary img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.grayscale-to-color {
+    filter: grayscale(100%);
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.grayscale-to-color:hover {
+    filter: grayscale(0%);
+    transform: scale(1.02);
+}
+
+@media (max-width: 1024px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-main img {
+        height: 300px;
+    }
+
+    .gallery-secondary {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-secondary img {
+        height: 250px;
+    }
+}

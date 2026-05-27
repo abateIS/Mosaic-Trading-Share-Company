@@ -1,0 +1,32 @@
+.service-card.simple {
+    padding: 15px 20px;
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    border-left: 3px solid var(--primary-yellow);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #f8faff;
+    margin-bottom: 5px;
+}
+
+.service-card.simple:hover {
+    transform: translateX(5px);
+    background-color: #f0f4ff;
+    border-left-color: var(--primary-blue);
+    box-shadow: none;
+}
+
+.service-check {
+    color: var(--primary-blue);
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.service-card-text {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: var(--text-black);
+    margin-bottom: 0;
+}

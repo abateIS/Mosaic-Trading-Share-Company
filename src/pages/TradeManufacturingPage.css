@@ -1,0 +1,79 @@
+.trade-manufacturing-page {
+    padding-bottom: 100px;
+}
+
+.sector-hero {
+    background: linear-gradient(rgba(22, 79, 249, 0.85), rgba(22, 79, 249, 0.85)), url('../assets/img_ext-001.png');
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0 100px;
+    color: white;
+    text-align: center;
+}
+
+.sector-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+
+.sector-hero p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.sector-content {
+    padding: 100px 0;
+}
+
+.industry-block {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+
+.industry-block.reverse {
+    flex-direction: row-reverse;
+}
+
+.industry-info {
+    flex: 1;
+}
+
+.industry-info h2 {
+    color: var(--primary-blue);
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.details-list {
+    list-style: none;
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+}
+
+.details-list li {
+    padding-left: 30px;
+    position: relative;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.details-list li::before {
+    content: '⚡';
+    position: absolute;
+    left: 0;
+    color: var(--primary-yellow);
+}
+
+@media (max-width: 992px) {
+
+    .industry-block,
+    .industry-block.reverse {
+        flex-direction: column;
+        gap: 40px;
+    }
+}

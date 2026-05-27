@@ -1,0 +1,80 @@
+.about-page {
+    padding-bottom: 100px;
+}
+
+.page-header {
+    background: var(--primary-blue);
+    color: white;
+    padding: 160px 0 80px;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.vision-mission {
+    padding: 100px 0;
+    background-color: #f8faff;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.card-premium {
+    background: white;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f0f0f0;
+}
+
+.card-premium h3 {
+    color: var(--primary-blue);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.card-premium p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    opacity: 0.8;
+}
+
+.capital-strength {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.max-700 {
+    max-width: 700px;
+    margin: 30px auto 0;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,158 @@
+.hospital-page {
+    padding-bottom: 100px;
+}
+
+.hospital-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/img_ext-000.png');
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0 100px;
+    color: white;
+    text-align: center;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: var(--primary-yellow);
+    color: var(--primary-blue);
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.hospital-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+
+.hospital-hero p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.opening-status {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 12px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.hospital-details {
+    padding: 100px 0;
+    background-color: white;
+}
+
+.details-text h2 {
+    color: var(--primary-blue);
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.services-list-specialized {
+    margin-top: 40px;
+    display: grid;
+    gap: 30px;
+}
+
+.service-item h4 {
+    color: var(--primary-blue);
+    margin-bottom: 8px;
+    font-size: 1.15rem;
+}
+
+.service-item p {
+    opacity: 0.8;
+    line-height: 1.5;
+}
+
+.hospital-img-large {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.img-caption {
+    text-align: center;
+    margin-top: 15px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+.extra-medical-services {
+    padding: 100px 0;
+    background-color: #f8faff;
+}
+
+.medical-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.medical-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.medical-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    border-color: var(--primary-blue);
+}
+
+.medical-card .icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.medical-card h3 {
+    color: var(--primary-blue);
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+}
+
+.medical-card p {
+    font-size: 0.95rem;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+    .hospital-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+}

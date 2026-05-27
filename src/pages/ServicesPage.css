@@ -193,35 +193,53 @@
     }
 }
 
+.sector-image-large {
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.1);
+    border: 4px solid var(--border-color);
+    transition: transform 0.5s ease;
+    /* Masking external branding: */
+    filter: blur(4px) opacity(0.65) grayscale(0.3);
+}
+
+.sector-section:hover .sector-image-large {
+    transform: scale(1.02);
+    filter: blur(2px) opacity(0.8) grayscale(0.1);
+    /* Slightly clearer on hover */
+}
+
 /* Future Investment Styles */
 .future-sector {
-    opacity: 0.9;
     position: relative;
 }
 
 .sector-image-container {
     position: relative;
+    overflow: hidden;
 }
 
 .future-badge {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 30px;
+    right: 30px;
     background: var(--primary-blue);
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 50px;
-    font-size: 0.9rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    font-weight: 800;
+    box-shadow: 0 10px 30px rgba(22, 79, 249, 0.3);
     z-index: 5;
     border: 2px solid white;
+    letter-spacing: 0.5px;
 }
 
 .future-text-inline {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--primary-blue);
-    font-weight: 700;
-    margin-left: 10px;
+    font-weight: 900;
+    margin-left: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }

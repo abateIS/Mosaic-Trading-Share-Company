@@ -38,7 +38,7 @@ export const translations = {
             cta_title: "Visionary Growth Across All Sectors",
             cta_subtitle: "We are constantly expanding our horizons to better serve our community and provide value to our shareholders.",
             cta_btn: "Download Corporate Profile",
-            future_label: "Future Investment"
+            future_label: "➜ Future Investment"
         },
         hospital: {
             title: "Mosaic-Furi General Hospital",
@@ -112,7 +112,7 @@ export const translations = {
             cta_title: "ራዕይ ያለው እድገት በሁሉም ዘርፎች",
             cta_subtitle: "ለማህበረሰባችን የተሻለ አገልግሎት ለመስጠት እና ለባለአክሲዮኖቻችን እሴት ለመፍጠር አድማሳችንን በየጊዜው እያሰፋን እንገኛለን።",
             cta_btn: "የኩባንያውን መገለጫ ያውርዱ",
-            future_label: "የወደፊት ኢንቨስትመንት"
+            future_label: "➜ የወደፊት ኢንቨስትመንት"
         },
         hospital: {
             title: "ሆስፒታል, የሕክምና አገልግሎት መስጫ ማዕከላት እና ክሊኒኮች",

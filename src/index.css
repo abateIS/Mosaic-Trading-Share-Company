@@ -172,8 +172,9 @@ section {
 
 .logo-img {
   height: 55px;
-  width: auto;
-  object-fit: contain;
+  width: 55px;
+  object-fit: cover;
+  object-position: left;
   display: block;
 }
 

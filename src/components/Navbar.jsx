@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
-import logoImg from '../assets/Final guideline V1-18.png';
+import logoImg from '../assets/logo_original.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -18,6 +18,7 @@ const Navbar = () => {
       <div className="container nav-container">
         <Link to="/" className="logo-container" onClick={closeMenu}>
           <img src={logoImg} alt="Mosaic Trading Logo" className="logo-img" />
+          <span className="company-name">Mosaic Trading <br /><span>Share Company</span></span>
         </Link>
 
         {/* Desktop Nav */}

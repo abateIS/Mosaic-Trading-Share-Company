@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
-import logoImg from '../assets/Final guideline V1-18.png';
+import logoImg from '../assets/logo_original.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -11,6 +12,7 @@ const Footer = () => {
                 <div className="footer-brand">
                     <div className="logo-container">
                         <img src={logoImg} alt="Mosaic Trading Logo" className="logo-img" />
+                        <span className="company-name">Mosaic Trading <br /><span>Share Company</span></span>
                     </div>
                     <p className="footer-description">{t('footer.description')}</p>
                 </div>

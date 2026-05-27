@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
+import logoImg from '../assets/Final guideline V1-18.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -16,13 +17,7 @@ const Navbar = () => {
     <nav className="navbar glass">
       <div className="container nav-container">
         <Link to="/" className="logo-container" onClick={closeMenu}>
-          <div className="logo-symbol">
-            <div className="petal yellow top-left"></div>
-            <div className="petal blue top-right"></div>
-            <div className="petal blue bottom-left"></div>
-            <div className="petal yellow bottom-right"></div>
-          </div>
-          <span className="company-name">Mosaic Trading <br /><span>Share Company</span></span>
+          <img src={logoImg} alt="Mosaic Trading Logo" className="logo-img" />
         </Link>
 
         {/* Desktop Nav */}

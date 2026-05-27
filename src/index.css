@@ -170,6 +170,13 @@ section {
   margin: 0 auto;
 }
 
+.logo-img {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
 /* Utility classes */
 .section-title {
   font-size: 2.4rem;

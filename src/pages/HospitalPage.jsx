@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import HospitalSection from '../components/HospitalSection';
-import heroBg from '../assets/medical_sector_premium.png';
+import heroBg from '../assets/universal_hero.png';
 import './HospitalPage.css';
 
 const HospitalPage = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import heroBg from '../assets/industrial_trading_premium.png';
+import heroBg from '../assets/universal_hero.png';
 import './TradeManufacturingPage.css';
 
 const TradeManufacturingPage = () => {

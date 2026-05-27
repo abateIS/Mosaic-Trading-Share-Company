@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import heroBg from '../assets/img_ext-008.png';
+import heroBg from '../assets/universal_hero.png';
 import './ContactPage.css';
 
 const ContactPage = () => {

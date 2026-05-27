@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import BoardMembers from '../components/BoardMembers';
-import heroBg from '../assets/img_ext-001.png';
+import heroBg from '../assets/universal_hero.png';
 import './BoardPage.css';
 
 const BoardPage = () => {

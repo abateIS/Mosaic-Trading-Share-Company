@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import About from '../components/About';
-import heroBg from '../assets/conglomerate_hero.png';
+import heroBg from '../assets/universal_hero.png';
 import './AboutPage.css';
 
 const AboutPage = () => {

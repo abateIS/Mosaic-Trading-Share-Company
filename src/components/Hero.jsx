@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
-import conglomerateHero from '../assets/conglomerate_hero.png';
+import conglomerateHero from '../assets/hospital_hero_new.png';
 import './Hero.css';
 
 const Hero = () => {

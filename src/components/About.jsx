@@ -59,10 +59,10 @@ const About = () => {
                         </div>
 
                         <div className="stats-container">
-                            <StatCard target={10} label={t('about.stat_years')} suffix="+" color="var(--primary-blue)" />
-                            <StatCard target={500} label={t('about.stat_staff')} suffix="+" color="#FAD900" />
+                            <StatCard target={2} label={t('about.stat_years')} suffix="+" color="var(--primary-blue)" />
+                            <StatCard target={50} label={t('about.stat_staff')} suffix="+" color="#FAD900" />
                             <StatCard target={50} label={t('about.stat_capital')} suffix="M+" color="#A20587" />
-                            <StatCard target={7} label={t('about.stat_sectors')} suffix="" color="#99B444" />
+                            <StatCard target={1} label={t('about.stat_sectors')} suffix="" color="#99B444" />
                         </div>
                     </div>
 

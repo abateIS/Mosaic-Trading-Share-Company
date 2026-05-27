@@ -23,10 +23,9 @@ const HospitalSection = () => {
                             technology with compassionate care.
                         </p>
                         <ul className="hospital-features">
-                            <li>Primary Level Specialized Services</li>
+                            <li>First Level Specialized Services</li>
                             <li>Laboratory & Radiology Centers</li>
-                            <li>Advanced Wellness & Relaxation</li>
-                            <li>Home-based Medical Care</li>
+                            <li>Professional Emergency Care</li>
                         </ul>
                         <div className="hospital-actions">
                             <Link to="/contact" className="btn-primary">Inquire About Services</Link>

@@ -10,14 +10,16 @@ export const translations = {
             medical: "Medical Sector",
             industrial: "Industrial & Trade",
             contact: "Contact",
-            connect: "Connect"
+            connect: "Connect",
+            brand_name: "Mosaic Trading",
+            brand_suffix: "Share Company"
         },
         hero: {
             title_1: "United for",
             title_blue: "Excellence",
             title_and: "and",
             title_yellow: "Care",
-            subtitle: "Mosaic Trading Share Company: A premier Ethiopian conglomerate delivering unrivaled quality across healthcare, industrial manufacturing, and global trade.",
+            subtitle: "Mosaic Trading Share Company: Currently establishing Mosaic-Furi General Hospital as our flagship premium healthcare facility, with future investments planned across industrial manufacturing and global trade.",
             cta_sectors: "Explore Our Sectors",
             cta_story: "Our Story"
         },
@@ -28,14 +30,15 @@ export const translations = {
             stat_years: "Years of Excellence",
             stat_staff: "Dedicated Staff",
             stat_capital: "Total Capital (M)",
-            stat_sectors: "Business Sectors"
+            stat_sectors: "Business Sector"
         },
         services: {
             hero_title: "Comprehensive Business Domains",
             hero_subtitle: "Mosaic Trading S.C. operates across a diverse range of critical sectors, driven by excellence and innovation.",
             cta_title: "Visionary Growth Across All Sectors",
             cta_subtitle: "We are constantly expanding our horizons to better serve our community and provide value to our shareholders.",
-            cta_btn: "Download Corporate Profile"
+            cta_btn: "Download Corporate Profile",
+            future_label: "Future Investment"
         },
         hospital: {
             title: "Mosaic-Furi General Hospital",
@@ -81,35 +84,38 @@ export const translations = {
             medical: "የህክምና ዘርፍ",
             industrial: "ኢንዱስትሪ እና ንግድ",
             contact: "እውቂያ",
-            connect: "ይገናኙ"
+            connect: "ይገናኙ",
+            brand_name: "ሞዛይክ ንግድ",
+            brand_suffix: "አ.ማ"
         },
         hero: {
             title_1: "ለላቀ",
             title_blue: "ውጤት",
             title_and: "እና",
             title_yellow: "እንክብካቤ",
-            subtitle: "ሞዛይክ ትሬዲንግ አክሲዮን ማህበር፡ በጤና አጠባበቅ፣ በኢንዱስትሪ ምርት እና በዓለም አቀፍ ንግድ ተወዳዳሪ የሌለው ጥራት የሚያቀርብ ቀዳሚ የኢትዮጵያ ኩባንያዎች ስብስብ።",
+            subtitle: "ሞዛይክ ንግድ አ.ማ፡ ሆስፒታል፣ የሕክምና አገልግሎት መስጫ ማዕከላት እና ክሊኒኮችን እንደ ዋና የሥራ ዘርፍ በመጀመር ላይ የሚገኝ እና ወደፊትም በኢንዱስትሪ ምርት እና በዓለም አቀፍ ንግድ ላይ ለመሰማራት ያቀደ ቀዳሚ ድርጅት።",
             cta_sectors: "ዘርፎቻችንን ይጎብኙ",
             cta_story: "ታሪካችን"
         },
         about: {
             title: "በራዕይ የታነፀ፣ በእንክብካቤ የተገነባ",
-            p1: "ሞዛይክ ትሬዲንግ አክሲዮን ማህበር የተመሰረተው በኢትዮጵያ እያደገ ባለው ኢኮኖሚ ውስጥ ወሳኝ ክፍተቶችን ለመሙላት እውቀትን እና ሀብትን ለማቀናጀት ሲባል ነው።",
+            p1: "ሞዛይክ ንግድ አ.ማ የተመሰረተው በኢትዮጵያ እያደገ ባለው ኢኮኖሚ ውስጥ ወሳኝ ክፍተቶችን ለመሙላት እውቀትን እና ሀብትን ለማቀናጀት ሲባል ነው።",
             p2: "ዛሬ፣ የኩባንያውን መረጋጋት እና የላቀ ጥራት ምልክት ሆነን ቆመናል። ስራዎቻችን ከከፍተኛ የህክምና ተቋማት እስከ ሰፊ የኢንዱስትሪ ምርት ይዘልቃሉ።",
             stat_years: "የልምድ ዓመታት",
             stat_staff: "ቁርጠኛ ሰራተኞች",
             stat_capital: "ጠቅላላ ካፒታል (ሚ)",
-            stat_sectors: "የስራ ዘርፎች"
+            stat_sectors: "የስራ ዘርፍ"
         },
         services: {
             hero_title: "ሁሉን አቀፍ የንግድ ዘርፎች",
-            hero_subtitle: "ሞዛይክ ትሬዲንግ አ.ማ በላቀ ደረጃ እና በፈጠራ በመመራት በተለያዩ ወሳኝ ዘርፎች ውስጥ ይሰራል::",
+            hero_subtitle: "ሞዛይክ ንግድ አ.ማ በላቀ ደረጃ እና በፈጠራ በመመራት በተለያዩ ወሳኝ ዘርፎች ውስጥ ይሰራል::",
             cta_title: "ራዕይ ያለው እድገት በሁሉም ዘርፎች",
             cta_subtitle: "ለማህበረሰባችን የተሻለ አገልግሎት ለመስጠት እና ለባለአክሲዮኖቻችን እሴት ለመፍጠር አድማሳችንን በየጊዜው እያሰፋን እንገኛለን።",
-            cta_btn: "የኩባንያውን መገለጫ ያውርዱ"
+            cta_btn: "የኩባንያውን መገለጫ ያውርዱ",
+            future_label: "የወደፊት ኢንቨስትመንት"
         },
         hospital: {
-            title: "ሞዛይክ-ፉሪ ጠቅላላ ሆስፒታል",
+            title: "ሆስፒታል, የሕክምና አገልግሎት መስጫ ማዕከላት እና ክሊኒኮች",
             subtitle: "ዘመናዊ የህክምና መፍትሄዎች እና ርህራሄ የተሞላበት እንክብካቤ፣ በቅርቡ በአቅራቢያዎ።",
             stat_diagnostics: "ዘመናዊ ምርመራ",
             stat_specialists: "ባለሙያ ሐኪሞች",
@@ -124,7 +130,7 @@ export const translations = {
         },
         contact: {
             title: "ይገናኙን",
-            subtitle: "ስለ ሞዛይክ ትሬዲንግ አክሲዮን ማህበር ለሚኖርዎት ማንኛውም ጥያቄ ምላሽ ለመስጠት ዝግጁ ነን።",
+            subtitle: "ስለ ሞዛይክ ንግድ አ.ማ ለሚኖርዎት ማንኛውም ጥያቄ ምላሽ ለመስጠት ዝግጁ ነን።",
             form_title: "መልእክት ይላኩ",
             form_name: "ሙሉ ስም",
             form_email: "ኢሜል አድራሻ",

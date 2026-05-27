@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="footer-brand">
                     <div className="logo-container">
                         <img src={logoImg} alt="Mosaic Trading Logo" className="logo-img" />
-                        <span className="company-name">Mosaic Trading <br /><span>Share Company</span></span>
+                        <span className="company-name">{t('nav.brand_name')} <br /><span>{t('nav.brand_suffix')}</span></span>
                     </div>
                     <p className="footer-description">{t('footer.description')}</p>
                 </div>
@@ -31,7 +31,7 @@ const Footer = () => {
                     <p>Tel: +251 92 566 4477</p>
                     <p>Telegram: @mfghospital</p>
                     <p>TIN: 0093159931</p>
-                    <p>Bole sub-city, Woreda 07, Addis Ababa</p>
+                    <p>Sheger City, Furi sub-city, Muda Furi, Oromia</p>
                 </div>
             </div>
             <div className="footer-bottom">

@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="container nav-container">
         <Link to="/" className="logo-container" onClick={closeMenu}>
           <img src={logoImg} alt="Mosaic Trading Logo" className="logo-img" />
-          <span className="company-name">Mosaic Trading <br /><span>Share Company</span></span>
+          <span className="company-name">{t('nav.brand_name')} <br /><span>{t('nav.brand_suffix')}</span></span>
         </Link>
 
         {/* Desktop Nav */}

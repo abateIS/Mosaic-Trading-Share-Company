@@ -15,14 +15,13 @@ const servicesData = {
             category: "Medical Sector",
             image: medicalImg,
             items: [
-                "Primary level specialized hospital medical service centers and clinics.",
+                "First level specialized hospital medical service centers and clinics.",
                 "Diagnostic centers providing specialized laboratory and radiology services.",
                 "Care centers for chronic illness, aging, or disability health problems.",
-                "Sustainable home-based medical care and nursing services.",
                 "Professional ambulance service operations.",
-                "Wellness centers featuring gyms, saunas, massage, and relaxation services.",
                 "Consultancy and networking for hospital establishment and medical institutions."
-            ]
+            ],
+            isFuture: false
         },
         {
             category: "Manufacturing & Industry",
@@ -33,7 +32,8 @@ const servicesData = {
                 "Manufacturing of hygiene, sanitation products, paper, and chemicals.",
                 "Establishment of medical industrial factories and electronics manufacturing.",
                 "Producing and bottling high-quality mineral water."
-            ]
+            ],
+            isFuture: true
         },
         {
             category: "Import & Export Trade",
@@ -44,7 +44,8 @@ const servicesData = {
                 "Importing human and animal medicines for national distribution.",
                 "Importing and distributing electronics and industrial inputs.",
                 "Establishing strategic business associations and share trading."
-            ]
+            ],
+            isFuture: true
         },
         {
             category: "Agriculture & Hospitality",
@@ -54,7 +55,8 @@ const servicesData = {
                 "Strategic marketing of high-value agricultural products.",
                 "Establishment and management of professional hotels.",
                 "Guest houses and bed & breakfast services for diverse clientele."
-            ]
+            ],
+            isFuture: true
         },
         {
             category: "Construction & Consultancy",
@@ -64,22 +66,22 @@ const servicesData = {
                 "Environmental consultancy and sustainability work.",
                 "Strategic research, policy preparation, and vocational training.",
                 "Engaging in specialized construction and finishing trade work."
-            ]
+            ],
+            isFuture: true
         }
     ],
     am: [
         {
-            category: "የህክምና ዘርፍ",
+            category: "ሆስፒታል, የሕክምና አገልግሎት መስጫ ማዕከላት እና ክሊኒኮች",
             image: medicalImg,
             items: [
                 "የመጀመሪያ ደረጃ ልዩ ሆስፒታል የህክምና አገልግሎት ማዕከላት እና ክሊኒኮች።",
                 "ልዩ የላቦራቶሪ እና የሬዲዮሎጂ አገልግሎት የሚሰጡ ምርመራ ማዕከላት።",
                 "ለሥር የሰደድ በሽታ፣ ለእርጅና ወይም ለአካል ጉዳት ችግሮች እንክብካቤ ማዕከላት።",
-                "ዘላቂ የቤት ውስጥ ህክምና እና ነርሲንግ አገልግሎቶች።",
                 "ሙያዊ የአምቡላንስ አገልግሎት።",
-                "ጂም፣ ሳውና፣ ማሳጅ እና ዕረፍት አገልግሎቶች ያሏቸው የጤና ማዕከላት።",
                 "ለሆስፒታል ማቋቋም እና ለህክምና ተቋማት ምክር እና ትስስር።"
-            ]
+            ],
+            isFuture: false
         },
         {
             category: "ማኑፋክቸሪንግ እና ኢንዱስትሪ",
@@ -88,9 +90,10 @@ const servicesData = {
                 "የሰው እና የእንስሳት መድሃኒቶች እና ፋርማሲዩቲካልስ ምርት።",
                 "ልዩ የህክምና አገልግሎት መሳሪያዎች ምርት።",
                 "የንጽህና፣ ሳኒቴሽን ምርቶች፣ ወረቀት እና ኬሚካሎች ማምረት።",
-                "የህክምና ኢንዱስትሪ ፋብሪካዎች እና ኤሌክትሮኒክስ ማምረቻ ማቋቋም።",
+                "የህክምና ኢንዱስትሪ ፋብሪካዎች እና ኤሌክልትሮኒክስ ማምረቻ ማቋቋም።",
                 "ከፍተኛ ጥራት ያለው ማዕድን ውሃ ማምረት እና መሸጎጥ።"
-            ]
+            ],
+            isFuture: true
         },
         {
             category: "ገቢ እና ወጪ ንግድ",
@@ -101,17 +104,19 @@ const servicesData = {
                 "ለሀገር አቀፍ ስርጭት የሰው እና የእንስሳት መድሃኒቶች ማስመጣት።",
                 "ኤሌክትሮኒክስ እና የኢንዱስትሪ ግብዓቶች ማስመጣት እና ማከፋፈል።",
                 "ስትራቴጂካዊ የንግድ ማህበራት እና የአክሲዮን ንግድ ማቋቋም።"
-            ]
+            ],
+            isFuture: true
         },
         {
             category: "ግብርና እና ሆስፒታሊቲ",
             image: agriImg,
             items: [
-                "ዘመናዊ የእንስሳት እና የዶሮ እርባታ እና ግብይት ስራዎች።",
+                "ዘመናዊ የእንስሳት እና የዶሮ እርባታ እና ግይት ስራዎች።",
                 "ከፍተኛ ዋጋ ያላቸውን የግብርና ምርቶች ስትራቴጂካዊ ግብይት።",
                 "ሙያዊ ሆቴሎች ማቋቋም እና ማስተዳደር።",
                 "ለተለያዩ ደንበኞች የእንግዳ ማረፊያ እና ቢ ኤንድ ቢ አገልግሎቶች።"
-            ]
+            ],
+            isFuture: true
         },
         {
             category: "ግንባታ እና ማማከር",
@@ -121,7 +126,8 @@ const servicesData = {
                 "የአካባቢ ማማከር እና ዘላቂነት ስራ።",
                 "ስትራቴጂካዊ ምርምር፣ ፖሊሲ ዝግጅት እና ሙያ ማሰልጠን።",
                 "ልዩ ግንባታ እና ማጠናቀቂያ ንግድ ስራ መሰማራት።"
-            ]
+            ],
+            isFuture: true
         }
     ]
 };
@@ -143,14 +149,22 @@ const ServicesPage = () => {
             <section className="services-content">
                 <div className="container">
                     {sectors.map((sector, index) => (
-                        <div key={index} className={`sector-section ${index % 2 === 1 ? 'reverse' : ''}`}>
+                        <div key={index} className={`sector-section ${index % 2 === 1 ? 'reverse' : ''} ${sector.isFuture ? 'future-sector' : 'active-sector'}`}>
                             {sector.image && (
                                 <div className="sector-image-container">
                                     <img src={sector.image} alt={sector.category} className="sector-image-large" />
+                                    {sector.isFuture && (
+                                        <div className="future-badge">
+                                            <strong>{t('services.future_label')}</strong>
+                                        </div>
+                                    )}
                                 </div>
                             )}
                             <div className="sector-info-container">
-                                <h2 className="sector-title">{sector.category}</h2>
+                                <h2 className="sector-title">
+                                    {sector.category}
+                                    {sector.isFuture && <span className="future-text-inline"> - {t('services.future_label')}</span>}
+                                </h2>
                                 <div className="services-grid">
                                     {sector.items.map((text, i) => (
                                         <ServiceCard key={i} text={text} />

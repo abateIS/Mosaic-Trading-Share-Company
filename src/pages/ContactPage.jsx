@@ -26,8 +26,8 @@ const ContactPage = () => {
                                     <div className="info-icon">📍</div>
                                     <div className="info-text">
                                         <h3>{t('contact.info_office')}</h3>
-                                        <p>Bole sub-city, Woreda 07, House No. New</p>
-                                        <p>Addis Ababa, Ethiopia</p>
+                                        <p>Sheger City, Furi sub-city, Muda Furi</p>
+                                        <p>Oromia, Ethiopia</p>
                                     </div>
                                 </div>
                                 <div className="info-item">
@@ -92,7 +92,7 @@ const ContactPage = () => {
             <section className="map-section">
                 <div className="container">
                     <div className="map-placeholder">
-                        <p>Map Location: Bole sub-city, Woreda 07, Addis Ababa</p>
+                        <p>Map Location: Sheger City, Furi sub-city, Muda Furi, Oromia</p>
                         <span>(Integration for Google Maps would go here)</span>
                     </div>
                 </div>

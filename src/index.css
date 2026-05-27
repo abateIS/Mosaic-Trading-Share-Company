@@ -170,6 +170,21 @@ section {
   margin: 0 auto;
 }
 
+.future-tag-hero {
+  display: inline-block;
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(22, 79, 249, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .logo-img {
   height: 55px;
   width: 55px;

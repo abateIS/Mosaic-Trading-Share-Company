@@ -141,6 +141,7 @@ const ServicesPage = () => {
             <section className="services-hero-bg">
                 <div className="hero-dark-overlay"></div>
                 <div className="container relative-content">
+                    <div className="future-tag-hero">{t('services.future_label')}</div>
                     <h1>{t('services.hero_title')}</h1>
                     <p>{t('services.hero_subtitle')}</p>
                 </div>

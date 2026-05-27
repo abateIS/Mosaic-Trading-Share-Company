@@ -11,6 +11,7 @@ const TradeManufacturingPage = () => {
             <div className="hero-header" style={{ backgroundImage: `url(${heroBg})` }}>
                 <div className="hero-header-overlay"></div>
                 <div className="container hero-header-content">
+                    <div className="future-tag-hero">{t('services.future_label')}</div>
                     <h1>{t('industrial.title')}</h1>
                     <p>{t('industrial.subtitle')}</p>
                 </div>

@@ -266,27 +266,78 @@
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .nav-links {
-        display: none;
-    }
-
-    .nav-controls .btn-primary {
         display: none;
     }
 
     .hamburger-btn {
         display: flex;
     }
+
+    .nav-controls .btn-primary {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
-    .company-name {
-        font-size: 0.95rem;
+    .navbar {
+        padding: 8px 0;
     }
 
-    .logo-symbol {
-        width: 34px;
-        height: 34px;
+    .nav-container {
+        padding: 0 12px;
+        gap: 8px;
+    }
+
+    .nav-controls {
+        gap: 6px;
+        flex-shrink: 0;
+    }
+
+    .company-name {
+        font-size: 0.9rem;
+    }
+
+    .company-name span {
+        font-size: 0.7rem;
+    }
+
+    .logo-container {
+        gap: 8px;
+    }
+
+    .logo-img {
+        height: 48px;
+    }
+}
+
+@media (max-width: 360px) {
+    .nav-container {
+        padding: 0 8px;
+        gap: 4px;
+    }
+
+    .company-name {
+        font-size: 0.8rem;
+    }
+
+    .logo-img {
+        height: 42px;
+    }
+
+    .nav-controls {
+        gap: 4px;
+    }
+
+    .icon-btn {
+        padding: 6px 8px;
+        font-size: 0.85rem;
+    }
+
+    .hamburger-btn {
+        width: 36px;
+        height: 36px;
+        padding: 6px;
     }
 }

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import logoImg from '../assets/logo_icon.png';
 import './Navbar.css';
@@ -8,7 +7,6 @@ import './Navbar.css';
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
-  const { theme, toggleTheme } = useTheme();
   const { language, toggleLanguage, t } = useLanguage();
 
   const closeMenu = () => setMenuOpen(false);
@@ -59,9 +57,6 @@ const Navbar = () => {
           <button className="icon-btn" onClick={toggleLanguage} title="Switch Language" aria-label="Toggle Language">
             {language === 'en' ? 'አ' : 'EN'}
           </button>
-          <button className="icon-btn" onClick={toggleTheme} title="Toggle Theme" aria-label="Toggle Theme">
-            {theme === 'light' ? '🌙' : '☀️'}
-          </button>
           <Link to="/contact" className="btn-primary">{t('nav.connect')}</Link>
           <button className="hamburger-btn" onClick={() => setMenuOpen(prev => !prev)} aria-label="Open Menu">
             <span className={`hamburger-icon ${menuOpen ? 'open' : ''}`}></span>
@@ -81,7 +76,6 @@ const Navbar = () => {
           <Link to="/contact" onClick={closeMenu}>{t('nav.contact')}</Link>
           <div className="mobile-controls">
             <button className="icon-btn" onClick={toggleLanguage}>{language === 'en' ? '🇪🇹 አማርኛ' : '🇬🇧 English'}</button>
-            <button className="icon-btn" onClick={toggleTheme}>{theme === 'light' ? '🌙 Dark Mode' : '☀️ Light Mode'}</button>
           </div>
         </div>
       )}

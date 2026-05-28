@@ -71,6 +71,18 @@ export const translations = {
         footer: {
             description: "A premier Ethiopian conglomerate dedicated to excellence across diversified business sectors.",
             copyright: "All Rights Reserved."
+        },
+        featured_hospital: {
+            hero_tag: "Current Focus: Healthcare Excellence",
+            hero_subtitle: "Mosaic Trading S.C. is currently pioneering premium healthcare through Mosaic-Furi General Hospital.",
+            service_1_title: "Specialized Medical Centers",
+            service_1_desc: "First level specialized hospital medical service centers and clinics.",
+            service_2_title: "Diagnostic Excellence",
+            service_2_desc: "Advanced laboratory and radiology centers for precision diagnostics.",
+            service_3_title: "Specialized Care",
+            service_3_desc: "Dedicated care centers for chronic illness and aging-related health problems.",
+            service_4_title: "Emergency Operations",
+            service_4_desc: "Professional ambulance and senior specialist intervention 24/7."
         }
     },
     am: {
@@ -145,6 +157,18 @@ export const translations = {
         footer: {
             description: "በተለያዩ የንግድ ዘርፎች ለላቀ ደረጃ የተሰጠ ቀዳሚ የኢትዮጵያ ኩባንያዎች ስብስብ።",
             copyright: "መብቱ በህግ የተጠበቀ ነው።"
+        },
+        featured_hospital: {
+            hero_tag: "የአሁኑ ትኩረት፡ የላቀ የሕክምና አገልግሎት",
+            hero_subtitle: "ሞዛይክ ንግድ አ.ማ በአሁኑ ጊዜ በሞዛይክ-ፉሪ ጠቅላላ ሆስፒታል በኩል ከፍተኛ ጥራት ያለው የሕክምና አገልግሎት በመስጠት ላይ ይገኛል።",
+            service_1_title: "ልዩ የሕክምና ማዕከላት",
+            service_1_desc: "የመጀመሪያ ደረጃ ልዩ ሆስፒታል የሕክምና አገልግሎት ማዕከላት እና ክሊኒኮች።",
+            service_2_title: "ልዩ የምርመራ አገልግሎት",
+            service_2_desc: "ለተሻለ ምርመራ የሚረዱ የላቀ የላቦራቶሪ እና የሬዲዮሎጂ ማዕከላት።",
+            service_3_title: "ልዩ እንክብካቤ",
+            service_3_desc: "ለሥር የሰደዱ በሽታዎች እና ከእርጅና ጋር ለተያያዙ የጤና ችግሮች የተሰጡ የእንክብካቤ ማዕከላት።",
+            service_4_title: "የድንገተኛ አደጋ አገልግሎት",
+            service_4_desc: "ሙያዊ የአምቡላንስ አገልግሎት እና ከፍተኛ የባለሙያዎች ጣልቃ ገብነት በቀን 24 ሰዓት።"
         }
     }
 };

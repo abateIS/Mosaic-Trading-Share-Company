@@ -3,25 +3,24 @@ import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import './FeaturedServices.css';
 
-const hospitalServices = [
-    { title: "Specialized Medical Centers", icon: "🏥", desc: "First level specialized hospital medical service centers and clinics." },
-    { title: "Diagnostic Excellence", icon: "🔬", desc: "Advanced laboratory and radiology centers for precision diagnostics." },
-    { title: "Specialized Care", icon: "👨‍⚕️", desc: "Dedicated care centers for chronic illness and aging-related health problems." },
-    { title: "Emergency Operations", icon: "🚑", desc: "Professional ambulance and senior specialist intervention 24/7." }
-];
-
 const FeaturedServices = () => {
     const { t } = useLanguage();
+
+    const hospitalServices = [
+        { title: t('featured_hospital.service_1_title'), icon: "🏥", desc: t('featured_hospital.service_1_desc') },
+        { title: t('featured_hospital.service_2_title'), icon: "🔬", desc: t('featured_hospital.service_2_desc') },
+        { title: t('featured_hospital.service_3_title'), icon: "👨‍⚕️", desc: t('featured_hospital.service_3_desc') },
+        { title: t('featured_hospital.service_4_title'), icon: "🚑", desc: t('featured_hospital.service_4_desc') }
+    ];
 
     return (
         <section className="featured-services">
             <div className="container">
                 <div className="section-header">
-                    <h2 className="section-title">Current Focus: Healthcare Excellence</h2>
+                    <h2 className="section-title">{t('featured_hospital.hero_tag')}</h2>
                     <div className="underline"></div>
                     <p className="section-subtitle">
-                        Mosaic Trading S.C. is currently pioneering premium healthcare through
-                        <strong> Mosaic-Furi General Hospital</strong>.
+                        {t('featured_hospital.hero_subtitle')}
                     </p>
                 </div>
                 <div className="sector-grid">
